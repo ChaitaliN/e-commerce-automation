@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="/Users/chaitu/workspace/e-commerce-automation/src/main/java/com/qa/features/authentication.feature",
+		features="src/main/java/com/qa/features",
 		glue= {"com.qa.stepDefination"},
 		dryRun=false,
 		monochrome=true
